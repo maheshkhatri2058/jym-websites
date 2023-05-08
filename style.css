@@ -1,0 +1,115 @@
+body{
+    color: rgb(225, 225, 225);
+   margin: 0px;
+   padding: 0px;
+   height: 600px;
+   background-size: cover;
+}
+.header{
+    background-color: rgb(59, 47, 47);
+
+}
+
+.left{ 
+    margin: 0px auto;
+    display: inline-block;
+    position: absolute;
+    position: fixed;
+    background-color: rgb(59, 47, 47);
+    left: 12px;
+    top: 0px;
+}
+.left img{
+    width: 50px;
+    height:30px;
+    margin:0px 20px;
+   
+}
+.txt{
+   text-align: center;
+   font-style: bold;
+} 
+.mid{
+    display: block;
+    width: 50%;
+    margin: 0px auto;   
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 12px;
+    top: 0px;
+    margin: 14px auto;
+  
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 24px 16px;
+    color: azure;
+    font-size: 20px;
+}
+.navbar li a:hover{
+      color: blue;
+}
+.btn{
+    border-radius: 6px;
+    margin: 2px,2px;
+    color:rgba(red, green, blue, alpha);
+    font-family: sans-serif;
+    background-color: chartreuse;
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.cont{
+    margin-top: 100px;
+    width: 40%;
+    height: 250px;
+}
+.cont h1{
+    text-align: center;
+}
+.frm{
+    padding: 4px;
+    margin-left: 80px;
+
+}
+.cont button{
+    display: block;
+   margin: auto;
+   margin: 4px 83px;
+   width: 175px;
+   
+}
+.qut{
+    margin-top: 20px;
+    width: 60%;
+}
+.qut h3{
+font-family: 'Lobster', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Vina Sans', cursive;
+font-size: 35px;
+font-style: bold;
+color: rgb(212, 185, 28);
+}
+.last{
+    margin-top: 80px;
+    width: 100%;
+}
+marquee{
+    color: rgb(250, 14, 14);
+    font-size: 25px;
+    font-style: bold;
+    background-color: rgb(79, 64, 58);
+}
